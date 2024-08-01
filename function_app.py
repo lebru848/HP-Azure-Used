@@ -2,7 +2,6 @@ import azure.functions as func
 import logging
 import json
 
-
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
 @app.route(route="fn_http_trigger_snow")
